@@ -15,18 +15,26 @@
 
 # nonce-str
 
-<!-- description -->
+Generate a nonce str
 
 ## Install
 
 ```sh
-$ npm install nonce-str
+$ npm i nonce-str
 ```
 
-## Usage
+## nonce(length = 32, chars = nonce.CHARS)
+
+Returns `String`
 
 ```js
-import nonce_str from 'nonce-str'
+import nonce, {CHARS} from 'nonce-str'
+
+nonce(32)
+// mq3GTllnJ0tMxLGeV0EoO8ZDIOjQX6td
+
+console.log(CHARS)
+// ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
 ```
 
 ## License
