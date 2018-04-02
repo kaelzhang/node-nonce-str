@@ -1,6 +1,6 @@
 {
   "name": "nonce-str",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a nonce string.",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -16,7 +16,10 @@
     "url": "git://github.com/kaelzhang/node-nonce-str.git"
   },
   "keywords": [
-    "nonce-str"
+    "nonce-str",
+    "nonce",
+    "number once",
+    "random"
   ],
   "engines": {
     "node": ">=4"

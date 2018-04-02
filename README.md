@@ -15,7 +15,7 @@
 
 # nonce-str
 
-Generate a nonce str
+Generate a nonce str.
 
 ## Install
 
